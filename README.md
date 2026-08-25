@@ -162,21 +162,6 @@ Tools Used
 - Networkers Toolkit
 - VPCS
 
----
-
-Repository Structure
-
-├── Week-01/
-├── Week-02/
-├── Week-03/
-├── Week-04/
-├── Week-05/
-├── Week-06/
-├── Week-07/
-├── Week-08-Final-Capstone/
-├── Reports/
-├── Topologies/
-└── README.md
 
 ---
 
