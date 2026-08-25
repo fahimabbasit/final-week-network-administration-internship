@@ -1,0 +1,57 @@
+Aug 25 12:03:07.240 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:07.242 HYPERVISOR: Started on IP = localhost, TCP port = 56737.
+Aug 25 12:03:07.696 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:07.698 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:07.699 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:07.700 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\f1a803a0-64e2-437a-abec-40fa50789eb7 
+Aug 25 12:03:07.709 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\f1a803a0-64e2-437a-abec-40fa50789eb7
+Aug 25 12:03:07.710 HYPERVISOR: exec_cmd: vm create LAHORE 8 c3725 
+Aug 25 12:03:07.716 VM: VM LAHORE created.
+Aug 25 12:03:07.718 HYPERVISOR: exec_cmd: vm set_con_tcp_port LAHORE 5090 
+Aug 25 12:03:07.718 HYPERVISOR: exec_cmd: c3725 get_mac_addr LAHORE 
+Aug 25 12:03:07.720 HYPERVISOR: exec_cmd: vm set_disk0 LAHORE 0 
+Aug 25 12:03:07.721 HYPERVISOR: exec_cmd: vm set_exec_area LAHORE 64 
+Aug 25 12:03:07.723 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:07.724 HYPERVISOR: exec_cmd: vm set_idle_pc LAHORE 0x60bf8ba0 
+Aug 25 12:03:07.726 HYPERVISOR: exec_cmd: vm set_ios LAHORE C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:07.728 HYPERVISOR: exec_cmd: c3725 set_mac_addr LAHORE c208.4a70.0000 
+Aug 25 12:03:07.729 HYPERVISOR: exec_cmd: vm set_nvram LAHORE 256 
+Aug 25 12:03:07.731 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:07.732 HYPERVISOR: exec_cmd: vm slot_add_binding LAHORE 1 0 NM-1FE-TX 
+Aug 25 12:03:07.733 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:07.734 HYPERVISOR: exec_cmd: vm slot_add_binding LAHORE 0 16 WIC-2T 
+Aug 25 12:03:07.736 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:07.737 HYPERVISOR: exec_cmd: vm slot_add_binding LAHORE 0 32 WIC-2T 
+Aug 25 12:03:07.738 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:07.739 HYPERVISOR: exec_cmd: vm slot_add_binding LAHORE 0 48 WIC-2T 
+Aug 25 12:03:20.984 HYPERVISOR: exec_cmd: nio create_udp udp-ef5fcc9b-2618-4ba8-b5a3-8afae6a44a39 10028 127.0.0.1 10029 
+Aug 25 12:03:21.856 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAHORE 0 17 udp-ef5fcc9b-2618-4ba8-b5a3-8afae6a44a39 
+Aug 25 12:03:21.858 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:28.007 HYPERVISOR: exec_cmd: nio create_udp udp-3b9ed06a-3844-4dbe-83c5-b71930facbe8 10062 127.0.0.1 10063 
+Aug 25 12:03:28.012 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAHORE 0 16 udp-3b9ed06a-3844-4dbe-83c5-b71930facbe8 
+Aug 25 12:03:28.013 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:03:28.758 HYPERVISOR: exec_cmd: nio create_udp udp-239a6de3-a34f-4923-829c-0ab6cf86bf49 10079 127.0.0.1 10080 
+Aug 25 12:03:28.764 HYPERVISOR: exec_cmd: vm slot_add_nio_binding LAHORE 0 0 udp-239a6de3-a34f-4923-829c-0ab6cf86bf49 
+Aug 25 12:03:28.765 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:06:16.505 HYPERVISOR: exec_cmd: vm set_ghost_status LAHORE 2 
+Aug 25 12:06:16.506 HYPERVISOR: exec_cmd: vm set_ghost_file LAHORE C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:16.506 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:06:16.507 HYPERVISOR: exec_cmd: vm set_config LAHORE configs\i8_startup-config.cfg 
+Aug 25 12:06:16.508 HYPERVISOR: exec_cmd: vm start LAHORE 
+Aug 25 12:06:47.398 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:06:47.422 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:18:10.457 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:18:10.464 HYPERVISOR: exec_cmd: vm stop LAHORE 
+Aug 25 12:18:10.658 VM: VM LAHORE shutdown.
+Aug 25 12:18:10.661 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:18:39.423 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:18:39.429 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:19:25.144 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:19:25.145 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:21:55.328 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:21:55.331 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:22:09.238 HYPERVISOR: exec_cmd: vm get_status LAHORE 
+Aug 25 12:22:09.243 HYPERVISOR: exec_cmd: vm extract_config LAHORE 
+Aug 25 12:22:20.255 HYPERVISOR: Stopped.
+Aug 25 12:22:20.263 VM: VM LAHORE destroyed.
+Aug 25 12:22:20.325 GENERAL: reset done.

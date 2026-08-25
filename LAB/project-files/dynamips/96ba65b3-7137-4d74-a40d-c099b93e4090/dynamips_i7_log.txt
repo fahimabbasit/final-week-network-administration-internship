@@ -1,0 +1,57 @@
+Aug 25 12:03:06.577 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:06.578 HYPERVISOR: Started on IP = localhost, TCP port = 56734.
+Aug 25 12:03:06.997 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:06.999 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:07.000 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:07.001 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\96ba65b3-7137-4d74-a40d-c099b93e4090 
+Aug 25 12:03:07.009 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\96ba65b3-7137-4d74-a40d-c099b93e4090
+Aug 25 12:03:07.010 HYPERVISOR: exec_cmd: vm create KOHAT 7 c3725 
+Aug 25 12:03:07.014 VM: VM KOHAT created.
+Aug 25 12:03:07.016 HYPERVISOR: exec_cmd: vm set_con_tcp_port KOHAT 5089 
+Aug 25 12:03:07.017 HYPERVISOR: exec_cmd: c3725 get_mac_addr KOHAT 
+Aug 25 12:03:07.018 HYPERVISOR: exec_cmd: vm set_disk0 KOHAT 0 
+Aug 25 12:03:07.020 HYPERVISOR: exec_cmd: vm set_exec_area KOHAT 64 
+Aug 25 12:03:07.021 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:07.022 HYPERVISOR: exec_cmd: vm set_idle_pc KOHAT 0x60bf8ba0 
+Aug 25 12:03:07.025 HYPERVISOR: exec_cmd: vm set_ios KOHAT C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:07.027 HYPERVISOR: exec_cmd: c3725 set_mac_addr KOHAT c207.23a8.0000 
+Aug 25 12:03:07.028 HYPERVISOR: exec_cmd: vm set_nvram KOHAT 256 
+Aug 25 12:03:07.030 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:07.031 HYPERVISOR: exec_cmd: vm slot_add_binding KOHAT 1 0 NM-1FE-TX 
+Aug 25 12:03:07.032 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:07.033 HYPERVISOR: exec_cmd: vm slot_add_binding KOHAT 0 16 WIC-2T 
+Aug 25 12:03:07.034 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:07.036 HYPERVISOR: exec_cmd: vm slot_add_binding KOHAT 0 32 WIC-2T 
+Aug 25 12:03:07.037 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:07.038 HYPERVISOR: exec_cmd: vm slot_add_binding KOHAT 0 48 WIC-2T 
+Aug 25 12:03:20.390 HYPERVISOR: exec_cmd: nio create_udp udp-8027fbac-2c84-459b-ab29-25bc84ca1c57 10022 127.0.0.1 10023 
+Aug 25 12:03:20.756 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KOHAT 0 16 udp-8027fbac-2c84-459b-ab29-25bc84ca1c57 
+Aug 25 12:03:20.757 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:28.479 HYPERVISOR: exec_cmd: nio create_udp udp-e0a3c1da-ab36-4a00-b53d-a76c87d6f454 10076 127.0.0.1 10077 
+Aug 25 12:03:28.490 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KOHAT 0 17 udp-e0a3c1da-ab36-4a00-b53d-a76c87d6f454 
+Aug 25 12:03:28.491 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:03:45.745 HYPERVISOR: exec_cmd: nio create_udp udp-99771302-0270-4cab-bc03-8c67a2b0657e 10215 127.0.0.1 10216 
+Aug 25 12:03:45.750 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KOHAT 0 0 udp-99771302-0270-4cab-bc03-8c67a2b0657e 
+Aug 25 12:03:45.751 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:06:16.272 HYPERVISOR: exec_cmd: vm set_ghost_status KOHAT 2 
+Aug 25 12:06:16.273 HYPERVISOR: exec_cmd: vm set_ghost_file KOHAT C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:16.274 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:06:16.276 HYPERVISOR: exec_cmd: vm set_config KOHAT configs\i7_startup-config.cfg 
+Aug 25 12:06:16.276 HYPERVISOR: exec_cmd: vm start KOHAT 
+Aug 25 12:06:46.751 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:06:46.778 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:18:10.298 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:18:10.300 HYPERVISOR: exec_cmd: vm stop KOHAT 
+Aug 25 12:18:10.504 VM: VM KOHAT shutdown.
+Aug 25 12:18:10.507 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:18:39.422 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:18:39.427 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:19:25.143 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:19:25.145 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:21:55.328 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:21:55.331 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:22:09.237 HYPERVISOR: exec_cmd: vm get_status KOHAT 
+Aug 25 12:22:09.241 HYPERVISOR: exec_cmd: vm extract_config KOHAT 
+Aug 25 12:22:20.258 HYPERVISOR: Stopped.
+Aug 25 12:22:20.258 VM: VM KOHAT destroyed.
+Aug 25 12:22:20.325 GENERAL: reset done.

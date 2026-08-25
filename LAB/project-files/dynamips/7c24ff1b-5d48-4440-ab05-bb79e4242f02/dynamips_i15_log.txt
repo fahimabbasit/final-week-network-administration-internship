@@ -1,0 +1,63 @@
+Aug 25 12:03:17.394 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:17.396 HYPERVISOR: Started on IP = localhost, TCP port = 56784.
+Aug 25 12:03:17.854 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:17.856 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:17.856 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:17.857 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\7c24ff1b-5d48-4440-ab05-bb79e4242f02 
+Aug 25 12:03:17.858 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\7c24ff1b-5d48-4440-ab05-bb79e4242f02
+Aug 25 12:03:17.859 HYPERVISOR: exec_cmd: vm create R4 15 c3725 
+Aug 25 12:03:17.864 VM: VM R4 created.
+Aug 25 12:03:17.865 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5066 
+Aug 25 12:03:17.865 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Aug 25 12:03:17.867 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Aug 25 12:03:17.869 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Aug 25 12:03:17.870 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.871 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60bf8ba0 
+Aug 25 12:03:17.874 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:17.875 HYPERVISOR: exec_cmd: c3725 set_mac_addr R4 c20f.6d30.0000 
+Aug 25 12:03:17.877 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Aug 25 12:03:17.878 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.879 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Aug 25 12:03:17.880 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.881 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Aug 25 12:03:17.882 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.883 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-2T 
+Aug 25 12:03:17.884 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.885 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 32 WIC-2T 
+Aug 25 12:03:17.887 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:17.888 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 48 WIC-2T 
+Aug 25 12:03:39.179 HYPERVISOR: exec_cmd: nio create_udp udp-2d1b368f-82af-455b-97b1-f311b9d19b3d 10173 127.0.0.1 10174 
+Aug 25 12:03:40.126 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 16 udp-2d1b368f-82af-455b-97b1-f311b9d19b3d 
+Aug 25 12:03:40.128 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:40.411 HYPERVISOR: exec_cmd: nio create_udp udp-8f4122d8-70c2-4fa2-a892-01fc0ec6a84d 10179 127.0.0.1 10180 
+Aug 25 12:03:40.424 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-8f4122d8-70c2-4fa2-a892-01fc0ec6a84d 
+Aug 25 12:03:40.427 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:40.725 HYPERVISOR: exec_cmd: nio create_udp udp-2398c338-1093-4257-a6dd-b3ef6cfe7b74 10185 127.0.0.1 10186 
+Aug 25 12:03:40.732 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-2398c338-1093-4257-a6dd-b3ef6cfe7b74 
+Aug 25 12:03:40.733 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:45.498 HYPERVISOR: exec_cmd: nio create_udp udp-611684a6-a079-4701-9c2c-e6b404910423 10212 127.0.0.1 10213 
+Aug 25 12:03:45.503 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-611684a6-a079-4701-9c2c-e6b404910423 
+Aug 25 12:03:45.504 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:03:48.072 HYPERVISOR: exec_cmd: nio create_udp udp-db681179-b445-4563-a7cc-9f98ff765faa 10226 127.0.0.1 10227 
+Aug 25 12:03:48.076 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-db681179-b445-4563-a7cc-9f98ff765faa 
+Aug 25 12:03:48.077 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:06:45.447 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Aug 25 12:06:45.448 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:45.449 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:06:45.451 HYPERVISOR: exec_cmd: vm set_config R4 configs\i15_startup-config.cfg 
+Aug 25 12:06:45.451 HYPERVISOR: exec_cmd: vm start R4 
+Aug 25 12:07:15.987 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:07:16.007 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:18:13.984 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:18:13.987 HYPERVISOR: exec_cmd: vm stop R4 
+Aug 25 12:18:14.259 VM: VM R4 shutdown.
+Aug 25 12:18:14.261 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:18:39.731 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:18:39.733 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:19:25.329 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:19:25.334 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:22:16.554 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 25 12:22:16.555 HYPERVISOR: exec_cmd: vm extract_config R4 
+Aug 25 12:22:20.254 HYPERVISOR: Stopped.
+Aug 25 12:22:20.255 VM: VM R4 destroyed.
+Aug 25 12:22:20.307 GENERAL: reset done.

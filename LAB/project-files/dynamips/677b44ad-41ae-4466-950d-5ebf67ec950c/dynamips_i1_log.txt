@@ -1,0 +1,54 @@
+Aug 25 12:03:02.289 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:02.290 HYPERVISOR: Started on IP = localhost, TCP port = 56715.
+Aug 25 12:03:02.701 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:02.703 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:02.715 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:02.716 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\677b44ad-41ae-4466-950d-5ebf67ec950c 
+Aug 25 12:03:02.717 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\677b44ad-41ae-4466-950d-5ebf67ec950c
+Aug 25 12:03:02.718 HYPERVISOR: exec_cmd: vm create ISP-R1 1 c3725 
+Aug 25 12:03:02.724 VM: VM ISP-R1 created.
+Aug 25 12:03:02.726 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP-R1 5083 
+Aug 25 12:03:02.727 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP-R1 
+Aug 25 12:03:02.729 HYPERVISOR: exec_cmd: vm set_disk0 ISP-R1 0 
+Aug 25 12:03:02.731 HYPERVISOR: exec_cmd: vm set_exec_area ISP-R1 64 
+Aug 25 12:03:02.732 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:02.733 HYPERVISOR: exec_cmd: vm set_idle_pc ISP-R1 0x60bf8ba0 
+Aug 25 12:03:02.737 HYPERVISOR: exec_cmd: vm set_ios ISP-R1 C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:02.738 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP-R1 c201.35e8.0000 
+Aug 25 12:03:02.740 HYPERVISOR: exec_cmd: vm set_nvram ISP-R1 256 
+Aug 25 12:03:02.741 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:02.742 HYPERVISOR: exec_cmd: vm slot_add_binding ISP-R1 1 0 NM-1FE-TX 
+Aug 25 12:03:02.744 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:02.744 HYPERVISOR: exec_cmd: vm slot_add_binding ISP-R1 0 16 WIC-2T 
+Aug 25 12:03:02.745 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:02.746 HYPERVISOR: exec_cmd: vm slot_add_binding ISP-R1 0 32 WIC-2T 
+Aug 25 12:03:02.746 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:02.747 HYPERVISOR: exec_cmd: vm slot_add_binding ISP-R1 0 48 WIC-2T 
+Aug 25 12:03:18.549 HYPERVISOR: exec_cmd: nio create_udp udp-595fcadf-1df9-4f90-bcc9-54bd7fb0275d 10002 127.0.0.1 10003 
+Aug 25 12:03:18.854 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP-R1 0 0 udp-595fcadf-1df9-4f90-bcc9-54bd7fb0275d 
+Aug 25 12:03:18.855 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:03:33.937 HYPERVISOR: exec_cmd: nio create_udp udp-d83cd43e-c515-4fad-ac3d-6eb853f81c29 10119 127.0.0.1 10120 
+Aug 25 12:03:33.945 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP-R1 1 0 udp-d83cd43e-c515-4fad-ac3d-6eb853f81c29 
+Aug 25 12:03:33.946 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:06:15.436 HYPERVISOR: exec_cmd: vm set_ghost_status ISP-R1 2 
+Aug 25 12:06:15.439 HYPERVISOR: exec_cmd: vm set_ghost_file ISP-R1 C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:15.440 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:06:15.442 HYPERVISOR: exec_cmd: vm set_config ISP-R1 configs\i1_startup-config.cfg 
+Aug 25 12:06:15.445 HYPERVISOR: exec_cmd: vm start ISP-R1 
+Aug 25 12:06:45.918 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:06:45.980 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:18:09.748 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:18:09.753 HYPERVISOR: exec_cmd: vm stop ISP-R1 
+Aug 25 12:18:09.957 VM: VM ISP-R1 shutdown.
+Aug 25 12:18:09.994 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:18:39.315 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:18:39.320 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:19:25.057 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:19:25.060 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:21:55.216 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:21:55.222 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:22:09.111 HYPERVISOR: exec_cmd: vm get_status ISP-R1 
+Aug 25 12:22:09.117 HYPERVISOR: exec_cmd: vm extract_config ISP-R1 
+Aug 25 12:22:20.257 HYPERVISOR: Stopped.
+Aug 25 12:22:20.263 VM: VM ISP-R1 destroyed.
+Aug 25 12:22:20.329 GENERAL: reset done.

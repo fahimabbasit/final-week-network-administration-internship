@@ -1,0 +1,57 @@
+Aug 25 12:03:09.420 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:09.421 HYPERVISOR: Started on IP = localhost, TCP port = 56746.
+Aug 25 12:03:09.889 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:09.891 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:09.892 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:09.893 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\7047e94c-5628-4c6f-910b-855991868c85 
+Aug 25 12:03:09.901 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\7047e94c-5628-4c6f-910b-855991868c85
+Aug 25 12:03:09.902 HYPERVISOR: exec_cmd: vm create DMZ 11 c3725 
+Aug 25 12:03:09.907 VM: VM DMZ created.
+Aug 25 12:03:09.909 HYPERVISOR: exec_cmd: vm set_con_tcp_port DMZ 5093 
+Aug 25 12:03:09.909 HYPERVISOR: exec_cmd: c3725 get_mac_addr DMZ 
+Aug 25 12:03:09.911 HYPERVISOR: exec_cmd: vm set_disk0 DMZ 0 
+Aug 25 12:03:09.913 HYPERVISOR: exec_cmd: vm set_exec_area DMZ 64 
+Aug 25 12:03:09.914 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:09.915 HYPERVISOR: exec_cmd: vm set_idle_pc DMZ 0x60bf8ba0 
+Aug 25 12:03:09.918 HYPERVISOR: exec_cmd: vm set_ios DMZ C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:09.919 HYPERVISOR: exec_cmd: c3725 set_mac_addr DMZ c20b.4904.0000 
+Aug 25 12:03:09.921 HYPERVISOR: exec_cmd: vm set_nvram DMZ 256 
+Aug 25 12:03:09.922 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:09.923 HYPERVISOR: exec_cmd: vm slot_add_binding DMZ 1 0 NM-1FE-TX 
+Aug 25 12:03:09.925 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:09.926 HYPERVISOR: exec_cmd: vm slot_add_binding DMZ 0 16 WIC-2T 
+Aug 25 12:03:09.927 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:09.928 HYPERVISOR: exec_cmd: vm slot_add_binding DMZ 0 32 WIC-2T 
+Aug 25 12:03:09.929 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:09.930 HYPERVISOR: exec_cmd: vm slot_add_binding DMZ 0 48 WIC-2T 
+Aug 25 12:03:26.817 HYPERVISOR: exec_cmd: nio create_udp udp-49acc4cf-27fd-4e72-a15e-9f1d5e484203 10058 127.0.0.1 10059 
+Aug 25 12:03:27.753 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DMZ 0 49 udp-49acc4cf-27fd-4e72-a15e-9f1d5e484203 
+Aug 25 12:03:27.755 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:28.259 HYPERVISOR: exec_cmd: nio create_udp udp-d20b68ca-6120-4562-a49a-2547608c8f26 10070 127.0.0.1 10071 
+Aug 25 12:03:28.273 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DMZ 0 16 udp-d20b68ca-6120-4562-a49a-2547608c8f26 
+Aug 25 12:03:28.274 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:03:47.237 HYPERVISOR: exec_cmd: nio create_udp udp-5c61dcd2-6aa4-48f4-bc16-925f0b7171e3 10222 127.0.0.1 10223 
+Aug 25 12:03:47.242 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DMZ 0 0 udp-5c61dcd2-6aa4-48f4-bc16-925f0b7171e3 
+Aug 25 12:03:47.243 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:06:17.357 HYPERVISOR: exec_cmd: vm set_ghost_status DMZ 2 
+Aug 25 12:06:17.358 HYPERVISOR: exec_cmd: vm set_ghost_file DMZ C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:17.359 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:06:17.424 HYPERVISOR: exec_cmd: vm set_config DMZ configs\i11_startup-config.cfg 
+Aug 25 12:06:17.424 HYPERVISOR: exec_cmd: vm start DMZ 
+Aug 25 12:06:48.478 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:06:48.504 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:18:10.682 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:18:10.685 HYPERVISOR: exec_cmd: vm stop DMZ 
+Aug 25 12:18:10.873 VM: VM DMZ shutdown.
+Aug 25 12:18:10.877 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:18:39.474 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:18:39.482 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:19:25.170 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:19:25.174 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:21:55.356 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:21:55.360 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:22:09.268 HYPERVISOR: exec_cmd: vm get_status DMZ 
+Aug 25 12:22:09.273 HYPERVISOR: exec_cmd: vm extract_config DMZ 
+Aug 25 12:22:20.449 HYPERVISOR: Stopped.
+Aug 25 12:22:20.449 VM: VM DMZ destroyed.
+Aug 25 12:22:20.451 GENERAL: reset done.

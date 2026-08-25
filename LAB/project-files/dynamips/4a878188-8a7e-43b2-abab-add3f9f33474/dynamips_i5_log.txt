@@ -1,0 +1,68 @@
+Aug 25 12:03:05.092 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:05.094 HYPERVISOR: Started on IP = localhost, TCP port = 56728.
+Aug 25 12:03:05.558 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:05.560 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:05.561 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:05.561 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\4a878188-8a7e-43b2-abab-add3f9f33474 
+Aug 25 12:03:05.563 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\4a878188-8a7e-43b2-abab-add3f9f33474
+Aug 25 12:03:05.564 HYPERVISOR: exec_cmd: vm create HQ-R1 5 c3725 
+Aug 25 12:03:05.568 VM: VM HQ-R1 created.
+Aug 25 12:03:05.569 HYPERVISOR: exec_cmd: vm set_con_tcp_port HQ-R1 5087 
+Aug 25 12:03:05.571 HYPERVISOR: exec_cmd: c3725 get_mac_addr HQ-R1 
+Aug 25 12:03:05.573 HYPERVISOR: exec_cmd: vm set_disk0 HQ-R1 0 
+Aug 25 12:03:05.575 HYPERVISOR: exec_cmd: vm set_exec_area HQ-R1 64 
+Aug 25 12:03:05.576 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.577 HYPERVISOR: exec_cmd: vm set_idle_pc HQ-R1 0x60bf8ba0 
+Aug 25 12:03:05.580 HYPERVISOR: exec_cmd: vm set_ios HQ-R1 C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:05.581 HYPERVISOR: exec_cmd: c3725 set_mac_addr HQ-R1 c205.2288.0000 
+Aug 25 12:03:05.583 HYPERVISOR: exec_cmd: vm set_nvram HQ-R1 256 
+Aug 25 12:03:05.585 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.586 HYPERVISOR: exec_cmd: vm slot_add_binding HQ-R1 1 0 NM-1FE-TX 
+Aug 25 12:03:05.587 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.588 HYPERVISOR: exec_cmd: vm slot_add_binding HQ-R1 2 0 NM-1FE-TX 
+Aug 25 12:03:05.589 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.590 HYPERVISOR: exec_cmd: vm slot_add_binding HQ-R1 0 16 WIC-2T 
+Aug 25 12:03:05.592 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.593 HYPERVISOR: exec_cmd: vm slot_add_binding HQ-R1 0 32 WIC-2T 
+Aug 25 12:03:05.594 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:05.595 HYPERVISOR: exec_cmd: vm slot_add_binding HQ-R1 0 48 WIC-2T 
+Aug 25 12:03:24.402 HYPERVISOR: exec_cmd: nio create_udp udp-64f0372b-904e-410a-a9ae-23d69715c198 10046 127.0.0.1 10047 
+Aug 25 12:03:25.311 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 0 32 udp-64f0372b-904e-410a-a9ae-23d69715c198 
+Aug 25 12:03:25.313 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:31.876 HYPERVISOR: exec_cmd: nio create_udp udp-f5e34d0c-c4ab-4bcd-a182-82b5f6547452 10095 127.0.0.1 10096 
+Aug 25 12:03:31.883 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 0 16 udp-f5e34d0c-c4ab-4bcd-a182-82b5f6547452 
+Aug 25 12:03:31.883 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:34.160 HYPERVISOR: exec_cmd: nio create_udp udp-2e5206ee-af74-4247-b24a-e685baf884c6 10123 127.0.0.1 10124 
+Aug 25 12:03:34.166 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 0 0 udp-2e5206ee-af74-4247-b24a-e685baf884c6 
+Aug 25 12:03:34.166 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:35.624 HYPERVISOR: exec_cmd: nio create_udp udp-ea249dd6-ac05-4678-b842-fb57a5371cb2 10135 127.0.0.1 10136 
+Aug 25 12:03:35.630 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 0 1 udp-ea249dd6-ac05-4678-b842-fb57a5371cb2 
+Aug 25 12:03:35.631 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:38.864 HYPERVISOR: exec_cmd: nio create_udp udp-161bd2c9-88d7-4c3a-80a4-81c90738b6fd 10165 127.0.0.1 10166 
+Aug 25 12:03:38.869 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 1 0 udp-161bd2c9-88d7-4c3a-80a4-81c90738b6fd 
+Aug 25 12:03:38.870 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:03:40.706 HYPERVISOR: exec_cmd: nio create_udp udp-79bb0d8b-9939-4d72-bb62-be773d8ab099 10183 127.0.0.1 10184 
+Aug 25 12:03:40.711 HYPERVISOR: exec_cmd: vm slot_add_nio_binding HQ-R1 2 0 udp-79bb0d8b-9939-4d72-bb62-be773d8ab099 
+Aug 25 12:03:40.712 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:06:15.906 HYPERVISOR: exec_cmd: vm set_ghost_status HQ-R1 2 
+Aug 25 12:06:15.907 HYPERVISOR: exec_cmd: vm set_ghost_file HQ-R1 C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:15.908 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:06:15.911 HYPERVISOR: exec_cmd: vm set_config HQ-R1 configs\i5_startup-config.cfg 
+Aug 25 12:06:15.911 HYPERVISOR: exec_cmd: vm start HQ-R1 
+Aug 25 12:06:46.526 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:06:46.556 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:18:10.072 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:18:10.077 HYPERVISOR: exec_cmd: vm stop HQ-R1 
+Aug 25 12:18:10.274 VM: VM HQ-R1 shutdown.
+Aug 25 12:18:10.276 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:18:39.365 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:18:39.372 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:19:25.112 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:19:25.116 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:21:55.273 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:21:55.275 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:22:09.177 HYPERVISOR: exec_cmd: vm get_status HQ-R1 
+Aug 25 12:22:09.182 HYPERVISOR: exec_cmd: vm extract_config HQ-R1 
+Aug 25 12:22:20.257 HYPERVISOR: Stopped.
+Aug 25 12:22:20.263 VM: VM HQ-R1 destroyed.
+Aug 25 12:22:20.298 GENERAL: reset done.

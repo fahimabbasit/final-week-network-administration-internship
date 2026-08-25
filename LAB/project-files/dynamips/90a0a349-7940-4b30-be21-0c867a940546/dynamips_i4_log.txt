@@ -1,0 +1,73 @@
+Aug 25 12:03:04.501 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:04.504 HYPERVISOR: Started on IP = localhost, TCP port = 56725.
+Aug 25 12:03:04.906 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:04.907 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:04.907 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:04.908 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\90a0a349-7940-4b30-be21-0c867a940546 
+Aug 25 12:03:04.916 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\90a0a349-7940-4b30-be21-0c867a940546
+Aug 25 12:03:04.917 HYPERVISOR: exec_cmd: vm create EDGE-R2 4 c3725 
+Aug 25 12:03:04.920 VM: VM EDGE-R2 created.
+Aug 25 12:03:04.921 HYPERVISOR: exec_cmd: vm set_con_tcp_port EDGE-R2 5086 
+Aug 25 12:03:04.922 HYPERVISOR: exec_cmd: c3725 get_mac_addr EDGE-R2 
+Aug 25 12:03:04.923 HYPERVISOR: exec_cmd: vm set_disk0 EDGE-R2 0 
+Aug 25 12:03:04.924 HYPERVISOR: exec_cmd: vm set_exec_area EDGE-R2 64 
+Aug 25 12:03:04.924 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:04.925 HYPERVISOR: exec_cmd: vm set_idle_pc EDGE-R2 0x60bf8ba0 
+Aug 25 12:03:04.927 HYPERVISOR: exec_cmd: vm set_ios EDGE-R2 C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:04.927 HYPERVISOR: exec_cmd: c3725 set_mac_addr EDGE-R2 c204.45d0.0000 
+Aug 25 12:03:04.928 HYPERVISOR: exec_cmd: vm set_nvram EDGE-R2 256 
+Aug 25 12:03:04.929 HYPERVISOR: exec_cmd: vm set_ram EDGE-R2 256 
+Aug 25 12:03:04.930 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:04.931 HYPERVISOR: exec_cmd: vm slot_add_binding EDGE-R2 1 0 NM-1FE-TX 
+Aug 25 12:03:04.932 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:04.932 HYPERVISOR: exec_cmd: vm slot_add_binding EDGE-R2 0 16 WIC-2T 
+Aug 25 12:03:04.933 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:04.934 HYPERVISOR: exec_cmd: vm slot_add_binding EDGE-R2 0 32 WIC-2T 
+Aug 25 12:03:04.934 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:04.935 HYPERVISOR: exec_cmd: vm slot_add_binding EDGE-R2 0 48 WIC-2T 
+Aug 25 12:03:19.746 HYPERVISOR: exec_cmd: nio create_udp udp-0400290d-c098-4283-bca9-78eddd4b6d95 10010 127.0.0.1 10011 
+Aug 25 12:03:20.077 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 0 udp-0400290d-c098-4283-bca9-78eddd4b6d95 
+Aug 25 12:03:20.077 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:20.233 HYPERVISOR: exec_cmd: nio create_udp udp-fa8af397-8021-4bb0-ac4e-f54445895771 10016 127.0.0.1 10017 
+Aug 25 12:03:20.237 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 1 0 udp-fa8af397-8021-4bb0-ac4e-f54445895771 
+Aug 25 12:03:20.237 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:22.098 HYPERVISOR: exec_cmd: nio create_udp udp-b1669561-d381-476a-80d6-067b3bf0f3fe 10032 127.0.0.1 10033 
+Aug 25 12:03:22.104 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 16 udp-b1669561-d381-476a-80d6-067b3bf0f3fe 
+Aug 25 12:03:22.105 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:23.252 HYPERVISOR: exec_cmd: nio create_udp udp-3073f996-af4a-467b-9a90-8c3c732858b2 10038 127.0.0.1 10039 
+Aug 25 12:03:23.257 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 17 udp-3073f996-af4a-467b-9a90-8c3c732858b2 
+Aug 25 12:03:23.258 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:25.602 HYPERVISOR: exec_cmd: nio create_udp udp-a4a36f52-ecb3-4f47-802c-82d69641c30a 10050 127.0.0.1 10051 
+Aug 25 12:03:25.607 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 32 udp-a4a36f52-ecb3-4f47-802c-82d69641c30a 
+Aug 25 12:03:25.608 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:26.797 HYPERVISOR: exec_cmd: nio create_udp udp-dff3d006-c7e0-4de2-8478-7c527d8a822a 10056 127.0.0.1 10057 
+Aug 25 12:03:26.803 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 49 udp-dff3d006-c7e0-4de2-8478-7c527d8a822a 
+Aug 25 12:03:26.804 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:28.027 HYPERVISOR: exec_cmd: nio create_udp udp-5e4c62da-6223-4404-a510-d6b0325463a7 10064 127.0.0.1 10065 
+Aug 25 12:03:28.032 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 48 udp-5e4c62da-6223-4404-a510-d6b0325463a7 
+Aug 25 12:03:28.033 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:03:28.466 HYPERVISOR: exec_cmd: nio create_udp udp-4ad30d84-e9a7-4193-b806-3b4b9084d387 10074 127.0.0.1 10075 
+Aug 25 12:03:28.470 HYPERVISOR: exec_cmd: vm slot_add_nio_binding EDGE-R2 0 33 udp-4ad30d84-e9a7-4193-b806-3b4b9084d387 
+Aug 25 12:03:28.470 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:06:15.441 HYPERVISOR: exec_cmd: vm set_ghost_status EDGE-R2 2 
+Aug 25 12:06:15.444 HYPERVISOR: exec_cmd: vm set_ghost_file EDGE-R2 C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-256.ghost 
+Aug 25 12:06:15.446 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:06:15.447 HYPERVISOR: exec_cmd: vm set_config EDGE-R2 configs\i4_startup-config.cfg configs\i4_private-config.cfg 
+Aug 25 12:06:15.449 HYPERVISOR: exec_cmd: vm start EDGE-R2 
+Aug 25 12:08:46.143 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:08:46.187 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:18:10.070 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:18:10.072 HYPERVISOR: exec_cmd: vm stop EDGE-R2 
+Aug 25 12:18:10.427 VM: VM EDGE-R2 shutdown.
+Aug 25 12:18:10.431 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:18:39.364 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:18:39.369 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:19:25.111 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:19:25.115 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:21:55.270 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:21:55.275 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:22:09.177 HYPERVISOR: exec_cmd: vm get_status EDGE-R2 
+Aug 25 12:22:09.180 HYPERVISOR: exec_cmd: vm extract_config EDGE-R2 
+Aug 25 12:22:20.257 HYPERVISOR: Stopped.
+Aug 25 12:22:20.263 VM: VM EDGE-R2 destroyed.
+Aug 25 12:22:20.304 GENERAL: reset done.

@@ -1,0 +1,57 @@
+Aug 25 12:03:08.014 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:08.016 HYPERVISOR: Started on IP = localhost, TCP port = 56740.
+Aug 25 12:03:08.453 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:08.455 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:08.456 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:08.457 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\ead523ec-9efd-4999-8cf5-627d540bfe87 
+Aug 25 12:03:08.466 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\ead523ec-9efd-4999-8cf5-627d540bfe87
+Aug 25 12:03:08.467 HYPERVISOR: exec_cmd: vm create KARACHI 9 c3725 
+Aug 25 12:03:08.472 VM: VM KARACHI created.
+Aug 25 12:03:08.474 HYPERVISOR: exec_cmd: vm set_con_tcp_port KARACHI 5091 
+Aug 25 12:03:08.475 HYPERVISOR: exec_cmd: c3725 get_mac_addr KARACHI 
+Aug 25 12:03:08.477 HYPERVISOR: exec_cmd: vm set_disk0 KARACHI 0 
+Aug 25 12:03:08.478 HYPERVISOR: exec_cmd: vm set_exec_area KARACHI 64 
+Aug 25 12:03:08.479 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:08.480 HYPERVISOR: exec_cmd: vm set_idle_pc KARACHI 0x60bf8ba0 
+Aug 25 12:03:08.483 HYPERVISOR: exec_cmd: vm set_ios KARACHI C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:08.485 HYPERVISOR: exec_cmd: c3725 set_mac_addr KARACHI c209.263c.0000 
+Aug 25 12:03:08.486 HYPERVISOR: exec_cmd: vm set_nvram KARACHI 256 
+Aug 25 12:03:08.488 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:08.489 HYPERVISOR: exec_cmd: vm slot_add_binding KARACHI 1 0 NM-1FE-TX 
+Aug 25 12:03:08.490 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:08.491 HYPERVISOR: exec_cmd: vm slot_add_binding KARACHI 0 16 WIC-2T 
+Aug 25 12:03:08.492 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:08.493 HYPERVISOR: exec_cmd: vm slot_add_binding KARACHI 0 32 WIC-2T 
+Aug 25 12:03:08.495 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:08.495 HYPERVISOR: exec_cmd: vm slot_add_binding KARACHI 0 48 WIC-2T 
+Aug 25 12:03:22.125 HYPERVISOR: exec_cmd: nio create_udp udp-5c670b68-6c95-4153-a730-fa49d029db65 10034 127.0.0.1 10035 
+Aug 25 12:03:23.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KARACHI 0 16 udp-5c670b68-6c95-4153-a730-fa49d029db65 
+Aug 25 12:03:23.073 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:32.107 HYPERVISOR: exec_cmd: nio create_udp udp-dcdfd694-1c00-421b-8c50-40ce2ae794b1 10103 127.0.0.1 10104 
+Aug 25 12:03:32.115 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KARACHI 0 17 udp-dcdfd694-1c00-421b-8c50-40ce2ae794b1 
+Aug 25 12:03:32.116 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:03:32.419 HYPERVISOR: exec_cmd: nio create_udp udp-067d42cd-7836-4180-a3c6-2d8f179349bd 10106 127.0.0.1 10107 
+Aug 25 12:03:32.427 HYPERVISOR: exec_cmd: vm slot_add_nio_binding KARACHI 0 0 udp-067d42cd-7836-4180-a3c6-2d8f179349bd 
+Aug 25 12:03:32.428 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:06:16.701 HYPERVISOR: exec_cmd: vm set_ghost_status KARACHI 2 
+Aug 25 12:06:16.702 HYPERVISOR: exec_cmd: vm set_ghost_file KARACHI C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:16.703 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:06:16.704 HYPERVISOR: exec_cmd: vm set_config KARACHI configs\i9_startup-config.cfg 
+Aug 25 12:06:16.704 HYPERVISOR: exec_cmd: vm start KARACHI 
+Aug 25 12:06:47.509 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:06:47.532 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:18:10.537 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:18:10.540 HYPERVISOR: exec_cmd: vm stop KARACHI 
+Aug 25 12:18:10.766 VM: VM KARACHI shutdown.
+Aug 25 12:18:10.769 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:18:39.425 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:18:39.431 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:19:25.145 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:19:25.146 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:21:55.330 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:21:55.333 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:22:09.239 HYPERVISOR: exec_cmd: vm get_status KARACHI 
+Aug 25 12:22:09.243 HYPERVISOR: exec_cmd: vm extract_config KARACHI 
+Aug 25 12:22:20.258 HYPERVISOR: Stopped.
+Aug 25 12:22:20.263 VM: VM KARACHI destroyed.
+Aug 25 12:22:20.307 GENERAL: reset done.

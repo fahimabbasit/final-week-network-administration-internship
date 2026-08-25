@@ -1,0 +1,57 @@
+Aug 25 12:03:08.783 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 12:03:08.787 HYPERVISOR: Started on IP = localhost, TCP port = 56743.
+Aug 25 12:03:09.179 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 12:03:09.181 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips 
+Aug 25 12:03:09.182 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips
+Aug 25 12:03:09.183 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\75724c1d-9297-4588-8d08-e76ff3e9303b 
+Aug 25 12:03:09.192 GENERAL: working_dir=C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\75724c1d-9297-4588-8d08-e76ff3e9303b
+Aug 25 12:03:09.193 HYPERVISOR: exec_cmd: vm create PESHAWAR 10 c3725 
+Aug 25 12:03:09.198 VM: VM PESHAWAR created.
+Aug 25 12:03:09.200 HYPERVISOR: exec_cmd: vm set_con_tcp_port PESHAWAR 5092 
+Aug 25 12:03:09.200 HYPERVISOR: exec_cmd: c3725 get_mac_addr PESHAWAR 
+Aug 25 12:03:09.202 HYPERVISOR: exec_cmd: vm set_disk0 PESHAWAR 0 
+Aug 25 12:03:09.203 HYPERVISOR: exec_cmd: vm set_exec_area PESHAWAR 64 
+Aug 25 12:03:09.205 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:09.206 HYPERVISOR: exec_cmd: vm set_idle_pc PESHAWAR 0x60bf8ba0 
+Aug 25 12:03:09.209 HYPERVISOR: exec_cmd: vm set_ios PESHAWAR C:/Users/FahimKhan/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 25 12:03:09.210 HYPERVISOR: exec_cmd: c3725 set_mac_addr PESHAWAR c20a.31b8.0000 
+Aug 25 12:03:09.212 HYPERVISOR: exec_cmd: vm set_nvram PESHAWAR 256 
+Aug 25 12:03:09.213 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:09.214 HYPERVISOR: exec_cmd: vm slot_add_binding PESHAWAR 1 0 NM-1FE-TX 
+Aug 25 12:03:09.215 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:09.216 HYPERVISOR: exec_cmd: vm slot_add_binding PESHAWAR 0 16 WIC-2T 
+Aug 25 12:03:09.218 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:09.219 HYPERVISOR: exec_cmd: vm slot_add_binding PESHAWAR 0 32 WIC-2T 
+Aug 25 12:03:09.220 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:09.221 HYPERVISOR: exec_cmd: vm slot_add_binding PESHAWAR 0 48 WIC-2T 
+Aug 25 12:03:23.271 HYPERVISOR: exec_cmd: nio create_udp udp-a45fe491-4aa2-4534-acaf-b6f09b78a738 10040 127.0.0.1 10041 
+Aug 25 12:03:24.154 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PESHAWAR 0 17 udp-a45fe491-4aa2-4534-acaf-b6f09b78a738 
+Aug 25 12:03:24.156 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:32.730 HYPERVISOR: exec_cmd: nio create_udp udp-af3208b3-a8a9-4daf-8fa6-cd2fbfaa7880 10112 127.0.0.1 10113 
+Aug 25 12:03:32.736 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PESHAWAR 0 16 udp-af3208b3-a8a9-4daf-8fa6-cd2fbfaa7880 
+Aug 25 12:03:32.737 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:03:33.004 HYPERVISOR: exec_cmd: nio create_udp udp-32c3b27c-6a4f-4c11-92d1-0ca94eba4fc2 10115 127.0.0.1 10116 
+Aug 25 12:03:33.009 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PESHAWAR 0 0 udp-32c3b27c-6a4f-4c11-92d1-0ca94eba4fc2 
+Aug 25 12:03:33.010 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:06:16.752 HYPERVISOR: exec_cmd: vm set_ghost_status PESHAWAR 2 
+Aug 25 12:06:16.753 HYPERVISOR: exec_cmd: vm set_ghost_file PESHAWAR C:\Users\FahimKhan\Desktop\Internship\Week 8\report\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Aug 25 12:06:16.753 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:06:16.755 HYPERVISOR: exec_cmd: vm set_config PESHAWAR configs\i10_startup-config.cfg 
+Aug 25 12:06:16.755 HYPERVISOR: exec_cmd: vm start PESHAWAR 
+Aug 25 12:06:47.505 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:06:47.529 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:18:10.539 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:18:10.541 HYPERVISOR: exec_cmd: vm stop PESHAWAR 
+Aug 25 12:18:10.767 VM: VM PESHAWAR shutdown.
+Aug 25 12:18:10.776 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:18:39.473 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:18:39.479 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:19:25.169 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:19:25.173 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:21:55.355 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:21:55.360 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:22:09.267 HYPERVISOR: exec_cmd: vm get_status PESHAWAR 
+Aug 25 12:22:09.272 HYPERVISOR: exec_cmd: vm extract_config PESHAWAR 
+Aug 25 12:22:20.253 HYPERVISOR: Stopped.
+Aug 25 12:22:20.253 VM: VM PESHAWAR destroyed.
+Aug 25 12:22:20.308 GENERAL: reset done.
